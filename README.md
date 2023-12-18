@@ -1,2 +1,2 @@
 # Deconvolve_sgRNA
-A Python script to deconvolve superimposed sequencing chromatograms of sgRNAs.
+This is a Python script to deconvolve superimposed sequencing chromatograms of sgRNAs. It works well in chromatograms with one or two overlapped sgRNAs but loses its effectiveness with three overlapped sgRNAs. For chromatograms with three overlapped sgRNAs, we recommend decomposing them manually with the Cartesian product. To deal with this problem caused by the inconsistent peak position of each base, you can set the base cut-off ratio below 0.10. This script is handy in sequencing chromatograms of sgRNAs generated in pooled CRISPR library transformation.
